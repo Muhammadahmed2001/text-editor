@@ -1,6 +1,26 @@
+@font-face {
+    font-family: firstFont;
+    src: url(font/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: secoundFont;
+    src: url(font/IndieFlower-Regular.ttf);
+}
+@font-face {
+    font-family: thirdFont;
+    src: url(font/Italianno-Regular.ttf);
+}
+@font-face {
+    font-family: fourthFont;
+    src: url(font/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: fifthFont;
+    src: url(font/PermanentMarker-Regular.ttf);
+}
 .user-input {
     text-align: center;
-border-style: none;
-font-size: 18px;
-width: 100%;
+    border-style: none;
+    font-size: 18px;
+    width: 100%;
 }
