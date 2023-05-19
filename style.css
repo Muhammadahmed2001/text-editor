@@ -19,8 +19,9 @@
     src: url(font/PermanentMarker-Regular.ttf);
 }
 .user-input {
-    text-align: center;
+    /* text-decoration: underline; */
     border-style: none;
     font-size: 18px;
     width: 100%;
+    /* font-weight:lighter; */
 }

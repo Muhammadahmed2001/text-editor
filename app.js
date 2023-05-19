@@ -3,30 +3,48 @@ function color() {
     var color = document.getElementById("color").value;
     userInput.style.color = color;
 }
-function textSize (){
+function textSize() {
     var size = document.getElementById("text-size").value;
-    userInput.style.fontSize = size+"px";
+    userInput.style.fontSize = size + "px";
 
 }
-function fontFamily(){
+function fontFamily() {
     var fontFamily = document.getElementById("font-family").value
-    if(fontFamily === "GreatVibes-Regular"){
+    if (fontFamily === "GreatVibes-Regular") {
         userInput.style.fontFamily = "firstFont"
     }
-    else if(fontFamily === "IndieFlower-Regular"){
+    else if (fontFamily === "IndieFlower-Regular") {
         userInput.style.fontFamily = "secoundFont"
     }
-    else if(fontFamily === "Italianno-Regular"){
+    else if (fontFamily === "Italianno-Regular") {
         userInput.style.fontFamily = "thirdFont"
     }
-    else if(fontFamily === "Pacifico-Regular"){
+    else if (fontFamily === "Pacifico-Regular") {
         userInput.style.fontFamily = "fourthFont"
     }
-    else if(fontFamily === "PermanentMarker-Regular"){
+    else if (fontFamily === "PermanentMarker-Regular") {
         userInput.style.fontFamily = "fifthFont"
     }
-    else{
+    else {
         userInput.style.fontFamily = "none"
     }
-    
+
+}
+function bold() {
+    userInput.style.fontWeight = "bolder";
+}
+function alignStart() {
+    userInput.style.textAlign = "start";
+}
+function alignEnd() {
+    userInput.style.textAlign = "end";
+}
+function alignCenter() {
+    userInput.style.textAlign = "center";
+}
+function textItalic() {
+    userInput.style.fontStyle = "italic";
+}
+function underLine() {
+    userInput.style.textDecoration = "underline";
 }
