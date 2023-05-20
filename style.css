@@ -2,26 +2,68 @@
     font-family: firstFont;
     src: url(font/GreatVibes-Regular.ttf);
 }
+
 @font-face {
     font-family: secoundFont;
     src: url(font/IndieFlower-Regular.ttf);
 }
+
 @font-face {
     font-family: thirdFont;
     src: url(font/Italianno-Regular.ttf);
 }
+
 @font-face {
     font-family: fourthFont;
     src: url(font/Pacifico-Regular.ttf);
 }
+
 @font-face {
     font-family: fifthFont;
     src: url(font/PermanentMarker-Regular.ttf);
 }
+
+* {
+    background-color: #e8e8e8;
+}
+
+body {
+    background-color: #e8e8e8 !important;
+}
+
+.main-div {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.tool {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+
+}
+
 .user-input {
-    /* text-decoration: underline; */
-    border-style: none;
+    background-color: #fff;
+    border-style: solid;
     font-size: 18px;
     width: 100%;
-    /* font-weight:lighter; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.font-family {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.text-size {
+    border-radius: 20px;
+}
+.bg-white{
+    background-color: #fff;
 }
